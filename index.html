@@ -11,12 +11,17 @@
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
         <script src="https://use.fontawesome.com/releases/v5.12.1/js/all.js" data-auto-replace-svg></script>
+        <script>
+        $('.navbar-collapse a').click(function(){
+            $(".navbar-collapse").collapse('hide');
+        });
+        </script>
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
         <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top shadow-lg">
             <div class="container-fluid">
-                <a href="#home" class="navbar-brand mb-0 h1 font-weight-light hrefs">AUTO<span class="navbar-brand mb-0 h1 font-weight-bold">ESTETYKA</span></a>
+                <a href="#home" class="navbar-brand mb-0 h1 font-weight-light">AUTO<span class="navbar-brand mb-0 h1 font-weight-bold">ESTETYKA</span></a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -106,6 +111,14 @@
                     </div>
                 </div>
             </div>
+            <a class="carousel-control-prev" href="#slides" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#slides" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
         </div>
         <div class="container-fluid padding logos">
             <div class="row text-center padding">
@@ -180,3 +193,8 @@ Treść tej strony internetowej (tekst, rysunki, pliki wideo) jest chroniona pra
             </div>
         </footer>
     </body>
+    <script>
+        $('.navbar-collapse a').click(function(){
+            $(".navbar-collapse").collapse('hide');
+        });
+    </script>
