@@ -185,7 +185,10 @@ html, url {
 }
 }
 /*---Media Queries --*/
-@media (max-width: 576px) {
+@media only screen 
+    and (device-width : 375px) 
+    and (device-height : 812px) 
+    and (-webkit-device-pixel-ratio : 3) {
     .carousel-caption h3{
     font-size: 100%;
     margin-bottom: 10px;
