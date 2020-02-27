@@ -205,6 +205,12 @@ html, url {
     margin-bottom: 20px;
     font-size: 80%;
 }
+    .title {
+    position: absolute;
+    top: 40%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+}
     .fade-in {
         font-size: 300%;
     }
