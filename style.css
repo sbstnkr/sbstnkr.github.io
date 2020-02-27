@@ -185,7 +185,7 @@ html, url {
 }
 }
 /*---Media Queries --*/
-@media (max-width: 576px) {
+@media (max-width: 1126px) {
     .carousel-caption h3{
     font-size: 100%;
     margin-bottom: 10px;
