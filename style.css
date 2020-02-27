@@ -205,6 +205,9 @@ html, url {
     margin-bottom: 20px;
     font-size: 80%;
 }
+    .fixed {
+    background-attachment: scroll;
+  }
     .title {
     position: absolute;
     top: 40%;
